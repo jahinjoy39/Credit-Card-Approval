@@ -18,23 +18,45 @@ The dataset includes features such as:
 - `BILL_AMT1`, `PAY_AMT1`, etc.: Bill and payment amounts
 - `default.payment.next.month`: Target variable (1 = default, 0 = no default)
 
-## 🧠 Model Info
 
-- **Model**: Decision Tree Classifier
-- **Libraries Used**:
-  - `pandas`
-  - `numpy`
-  - `matplotlib`
-  - `seaborn`
-  - `scikit-learn`
+## 🧪 Project Workflow & Code Description
 
-The notebook includes:
+### 1. **Data Loading**
+- Import the dataset using `pandas`.
+- Assign appropriate column names.
+- Check for missing values and basic data integrity.
 
-- Data cleaning and preprocessing
-- Feature selection
-- Model training
-- Evaluation metrics (accuracy, confusion matrix)
-- Visualization of decision tree (optional)
+### 2. **Exploratory Data Analysis (EDA)**
+- Use `matplotlib` and `seaborn` to visualize distributions.
+- Correlation matrix and heatmap for identifying important features.
+- Understand class balance for the default variable.
+
+### 3. **Data Preprocessing**
+- Encode categorical features if necessary.
+- Normalize or scale numerical values.
+- Split the data into training and testing sets using `train_test_split`.
+
+### 4. **Model Building**
+- Use classification models like:
+  - Logistic Regression
+  - Random Forest
+  - Support Vector Machine (SVM)
+- Fit models on the training data and predict on test data.
+
+### 5. **Model Evaluation**
+- Evaluate with metrics:
+  - Accuracy
+  - Precision / Recall
+  - F1 Score
+  - Confusion Matrix
+  - ROC-AUC Curve
+
+### 6. **Visualization**
+- Plot confusion matrix, feature importance, and ROC curve for better understanding.
+
+### 7. **Conclusion**
+- Summarize key findings.
+- Discuss the best-performing model and potential improvements.
 
 ## 🚀 Getting Started
 
