@@ -5,7 +5,7 @@ This project uses a machine learning model to predict whether a credit card hold
 ## 📁 Files
 
 - `Credit_Card.ipynb` — Jupyter Notebook containing all code for data processing, model training, and evaluation.
-- `credit_card.csv` — Dataset file (make sure to include it in your repo if used).
+- `cc_approvals.data` — Dataset file (make sure to include it in your repo if used).
 
 ## 📊 Dataset Overview
 
